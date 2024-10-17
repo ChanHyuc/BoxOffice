@@ -1,13 +1,6 @@
-//
-//  ViewController.swift
-//  BoxOffice
-//
-//  Created by ChanHyuc on 10/7/24.
-//
-
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,6 +10,5 @@ class ViewController: UIViewController {
     private func configureUI() {
         view.backgroundColor = .systemBackground
     }
-
 }
 
