@@ -9,7 +9,6 @@ final class BoxOfficeTests: XCTestCase {
         if let dataAsset = NSDataAsset(name: "box_office_sample") {
             do {
                 response = try decoder.decode(Response.self, from: dataAsset.data)
-                print(" \(response)")
             } catch {
 
             }

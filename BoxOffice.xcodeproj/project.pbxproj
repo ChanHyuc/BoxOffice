@@ -13,6 +13,7 @@
 		710923A42CC0B61B00AA7C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7109239A2CC0B61B00AA7C01 /* Assets.xcassets */; };
 		710923A62CC0B61B00AA7C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7109239D2CC0B61B00AA7C01 /* LaunchScreen.storyboard */; };
 		710923B62CC0B63100AA7C01 /* BoxOfficeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710923B42CC0B63100AA7C01 /* BoxOfficeTests.swift */; };
+		71833FE32CC29F160028EDA6 /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71833FE22CC29F160028EDA6 /* URLSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		7109239F2CC0B61B00AA7C01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		710923AB2CC0B62B00AA7C01 /* BoxOfficeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxOfficeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		710923B42CC0B63100AA7C01 /* BoxOfficeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxOfficeTests.swift; sourceTree = "<group>"; };
+		71833FE22CC29F160028EDA6 /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
 		71E25A4D2CB39B7000FB20E4 /* BoxOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,7 @@
 				7109239D2CC0B61B00AA7C01 /* LaunchScreen.storyboard */,
 				7109239E2CC0B61B00AA7C01 /* SceneDelegate.swift */,
 				7109239F2CC0B61B00AA7C01 /* ViewController.swift */,
+				71833FE22CC29F160028EDA6 /* URLSession.swift */,
 			);
 			path = BoxOffice;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				710923A12CC0B61B00AA7C01 /* AppDelegate.swift in Sources */,
+				71833FE32CC29F160028EDA6 /* URLSession.swift in Sources */,
 				710923A22CC0B61B00AA7C01 /* SceneDelegate.swift in Sources */,
 				710923A32CC0B61B00AA7C01 /* ViewController.swift in Sources */,
 			);
